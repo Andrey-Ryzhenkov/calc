@@ -16,9 +16,9 @@ public class Main {
         if (argument.length != 3){//если кол-во аргументов не равно 3
             throw new Exception("формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
         }
-        int a = 0;
-        int b = 0;
-        int result = 0;
+        int a;
+        int b;
+        int result;
         try {
             a= Integer.parseInt(argument[0]); // Первое число    
             b= Integer.parseInt(argument[2]); // Второе число      
